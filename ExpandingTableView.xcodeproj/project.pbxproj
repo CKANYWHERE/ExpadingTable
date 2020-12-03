@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9196EACD7B17D59FD425A260 /* Pods_ExpandingTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63D814F0F61778257D0F117 /* Pods_ExpandingTableView.framework */; };
+		FDEEDE91257881A300B80EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEEDE90257881A300B80EE6 /* AppDelegate.swift */; };
+		FDEEDE95257881A300B80EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEEDE94257881A300B80EE6 /* ViewController.swift */; };
+		FDEEDE9A257881A400B80EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEEDE99257881A400B80EE6 /* Assets.xcassets */; };
+		FDEEDE9D257881A400B80EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEEDE9B257881A400B80EE6 /* LaunchScreen.storyboard */; };
+		FDEEDEB0257884C600B80EE6 /* TitleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEEDEAF257884C600B80EE6 /* TitleViewCell.swift */; };
+		FDEEDEB3257897D100B80EE6 /* ViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEEDEB2257897D100B80EE6 /* ViewController+TableView.swift */; };
+		FDEEDEB82578BC4900B80EE6 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEEDEB72578BC4900B80EE6 /* Title.swift */; };
+		FDEEDEBB2578BF7F00B80EE6 /* ContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEEDEBA2578BF7F00B80EE6 /* ContentViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85EA0B59816C6ABAC64D0664 /* Pods-ExpandingTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandingTableView.release.xcconfig"; path = "Target Support Files/Pods-ExpandingTableView/Pods-ExpandingTableView.release.xcconfig"; sourceTree = "<group>"; };
+		88122689F3646E86809EFFEB /* Pods-ExpandingTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandingTableView.debug.xcconfig"; path = "Target Support Files/Pods-ExpandingTableView/Pods-ExpandingTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		F63D814F0F61778257D0F117 /* Pods_ExpandingTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpandingTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEEDE8D257881A300B80EE6 /* ExpandingTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandingTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEEDE90257881A300B80EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDEEDE94257881A300B80EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDEEDE99257881A400B80EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDEEDE9C257881A400B80EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDEEDE9E257881A400B80EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEEDEAF257884C600B80EE6 /* TitleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewCell.swift; sourceTree = "<group>"; };
+		FDEEDEB2257897D100B80EE6 /* ViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableView.swift"; sourceTree = "<group>"; };
+		FDEEDEB72578BC4900B80EE6 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		FDEEDEBA2578BF7F00B80EE6 /* ContentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDEEDE8A257881A300B80EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196EACD7B17D59FD425A260 /* Pods_ExpandingTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E5428FC37CAF27A663A863 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F63D814F0F61778257D0F117 /* Pods_ExpandingTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09FDEF2A8335FDCB3194C0E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88122689F3646E86809EFFEB /* Pods-ExpandingTableView.debug.xcconfig */,
+				85EA0B59816C6ABAC64D0664 /* Pods-ExpandingTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDEEDE84257881A300B80EE6 = {
+			isa = PBXGroup;
+			children = (
+				FDEEDE8F257881A300B80EE6 /* ExpandingTableView */,
+				FDEEDE8E257881A300B80EE6 /* Products */,
+				09FDEF2A8335FDCB3194C0E6 /* Pods */,
+				03E5428FC37CAF27A663A863 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDEEDE8E257881A300B80EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDEEDE8D257881A300B80EE6 /* ExpandingTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDEEDE8F257881A300B80EE6 /* ExpandingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FDEEDEB62578BC3400B80EE6 /* Model */,
+				FDEEDEA92578828000B80EE6 /* Extension */,
+				FDEEDEA82578827700B80EE6 /* View */,
+				FDEEDEA72578826900B80EE6 /* Application */,
+				FDEEDE99257881A400B80EE6 /* Assets.xcassets */,
+				FDEEDE9B257881A400B80EE6 /* LaunchScreen.storyboard */,
+				FDEEDE9E257881A400B80EE6 /* Info.plist */,
+			);
+			path = ExpandingTableView;
+			sourceTree = "<group>";
+		};
+		FDEEDEA72578826900B80EE6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FDEEDE90257881A300B80EE6 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FDEEDEA82578827700B80EE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDEEDE94257881A300B80EE6 /* ViewController.swift */,
+				FDEEDEAF257884C600B80EE6 /* TitleViewCell.swift */,
+				FDEEDEBA2578BF7F00B80EE6 /* ContentViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDEEDEA92578828000B80EE6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FDEEDEB2257897D100B80EE6 /* ViewController+TableView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FDEEDEB62578BC3400B80EE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDEEDEB72578BC4900B80EE6 /* Title.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDEEDE8C257881A300B80EE6 /* ExpandingTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDEEDEA1257881A400B80EE6 /* Build configuration list for PBXNativeTarget "ExpandingTableView" */;
+			buildPhases = (
+				307372B7C80244CBD59E49C4 /* [CP] Check Pods Manifest.lock */,
+				FDEEDE89257881A300B80EE6 /* Sources */,
+				FDEEDE8A257881A300B80EE6 /* Frameworks */,
+				FDEEDE8B257881A300B80EE6 /* Resources */,
+				CADA4D06EED4360C8B716C1E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpandingTableView;
+			productName = ExpandingTableView;
+			productReference = FDEEDE8D257881A300B80EE6 /* ExpandingTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDEEDE85257881A300B80EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FDEEDE8C257881A300B80EE6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FDEEDE88257881A300B80EE6 /* Build configuration list for PBXProject "ExpandingTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDEEDE84257881A300B80EE6;
+			productRefGroup = FDEEDE8E257881A300B80EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDEEDE8C257881A300B80EE6 /* ExpandingTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDEEDE8B257881A300B80EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEEDE9D257881A400B80EE6 /* LaunchScreen.storyboard in Resources */,
+				FDEEDE9A257881A400B80EE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		307372B7C80244CBD59E49C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExpandingTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADA4D06EED4360C8B716C1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpandingTableView/Pods-ExpandingTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpandingTableView/Pods-ExpandingTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExpandingTableView/Pods-ExpandingTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDEEDE89257881A300B80EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEEDEB82578BC4900B80EE6 /* Title.swift in Sources */,
+				FDEEDEB0257884C600B80EE6 /* TitleViewCell.swift in Sources */,
+				FDEEDEBB2578BF7F00B80EE6 /* ContentViewCell.swift in Sources */,
+				FDEEDE95257881A300B80EE6 /* ViewController.swift in Sources */,
+				FDEEDEB3257897D100B80EE6 /* ViewController+TableView.swift in Sources */,
+				FDEEDE91257881A300B80EE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDEEDE9B257881A400B80EE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDEEDE9C257881A400B80EE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDEEDE9F257881A400B80EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDEEDEA0257881A400B80EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDEEDEA2257881A400B80EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88122689F3646E86809EFFEB /* Pods-ExpandingTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExpandingTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gazualabs.ExpandingTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDEEDEA3257881A400B80EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85EA0B59816C6ABAC64D0664 /* Pods-ExpandingTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExpandingTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gazualabs.ExpandingTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDEEDE88257881A300B80EE6 /* Build configuration list for PBXProject "ExpandingTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDEEDE9F257881A400B80EE6 /* Debug */,
+				FDEEDEA0257881A400B80EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDEEDEA1257881A400B80EE6 /* Build configuration list for PBXNativeTarget "ExpandingTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDEEDEA2257881A400B80EE6 /* Debug */,
+				FDEEDEA3257881A400B80EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDEEDE85257881A300B80EE6 /* Project object */;
+}
